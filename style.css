@@ -1,0 +1,176 @@
+/* Estilos gerais */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #4CAF50;
+    height: 60px;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav {
+    float: right;
+  }
+  
+  header nav a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  /* Seção de trabalhos */
+  section.jobs {
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  section.jobs h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  section.jobs ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section.jobs li {
+    margin-bottom: 10px;
+  }
+  
+  section.jobs li a {
+    display: block;
+  }
+  
+  section.jobs li a img {
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+  }
+ 
+  .search-box {
+    border: none;
+    border-radius: 24px; /* Borda redonda */
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+  }
+  
+  /* Estilos para os botões e caixa de pesquisa */
+  .rounded-button {
+    border: none;
+    border-radius: 24px; /* Borda redonda */
+    padding: 10px 20px;
+    color: 4CAF50;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  .green-button {
+    background-color: #4CAF50; /* Cor verde */
+    
+  }
+  
+  /* Estilos para os botões */
+  .rounded-button:hover {
+    background-color: #45a049; /* Cor mais escura no hover */
+  }
+  
+  
+  /* Estilos para a caixa de pesquisa */
+  .search-box {
+    display: inline-block;
+  }
+  
+  /* Estilos para os botões de canto */
+  .corner-buttons {
+    float: left;
+    margin-left: 10px;
+  }
+  
+  /* Estilos para os botões de canto e suas listas suspensas */
+  .hover-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  /* Menu de opões*/
+  .dropdown {
+    display: none;
+    position: absolute;
+    background-color: #4CAF50;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .hover-dropdown:hover .dropdown {
+    display: block;
+  }
+  
+  .dropdown a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+ /* Estilos para os cartões de projeto */
+.project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .project-card {
+    width: calc(50% - 20px); /* 2 cartões por linha com 20px de espaço entre eles */
+    background-color: #f1f1f1; /* Fundo cinza */
+    padding: 20px;
+    border-radius: 24px; /* Borda arredondada */
+    margin-bottom: 20px;
+    box-sizing: border-box; /* Para acomodar a margem dentro da largura especificada */
+  }
+  
+  .tags {
+    margin-top: 10px;
+  }
+  
+  .tag {
+    background-color: rgba(0, 128, 0, 0.5); /* Cor verde transparente */
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-right: 5px;
+    display: inline-block;
+  }
+  
+  
+  .button {
+    background-color: #4CAF50; /* Cor verde para botão */
+    color: white;
+    border: none;
+    border-radius: 24px; /* Borda arredondada */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #45a049; /* Cor mais escura no hover */
+  }
+  
